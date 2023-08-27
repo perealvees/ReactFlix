@@ -1,11 +1,13 @@
+import Header from "./components/Header";
+
+
 function App() {
   return (
-        <>
-        <h1>ReactFlix</h1>
-        <p>
-          Assista agora nossos lançamentos!
-        </p>
-        </>
+    <>
+        <Header />
+        <h1>Catalogo de Filmes</h1>
+        <p>Escolha a categoria que você mais ama e bom filme!</p>
+    </>
   );
 }
 

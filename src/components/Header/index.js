@@ -1,9 +1,12 @@
+import styles from "./Header.module.css"
 function Header (){
     return (
-        <header>
+        <header className={styles.header}>
             <span>ReactFlix</span>
-            <a href="#">Início</a>
-            <a href="#">Assistir</a>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Assistir</a>
+            </nav>
         </header>
     )
 }
