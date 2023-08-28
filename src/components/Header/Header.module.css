@@ -1,16 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 
-}
-
 .header{
     color: aliceblue;
-    background-color: rgb(27, 26, 26);
+    background-color: rgba(27, 26, 26, 0.836);
     border-bottom: solid 2px rgba(247, 53, 53, 0.849);
     display: flex;
-    padding-block: 0.25rem;
     position: fixed;
     top: 0;
     width: 100%;
