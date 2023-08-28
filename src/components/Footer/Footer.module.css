@@ -1,12 +1,11 @@
 .footer {
-    background-color: black;
-    color: aliceblue;
-    border-top: 2px solid red;
-    width: 100%;
-    padding-block: 0.5rem;
-    display: flex;
     position: absolute;
-    bottom: 0;
-    justify-content: center;
+    width: 100%;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    padding-block: 0.5rem;
+    color: rgb(255, 255, 255);
+    border-top: 2px solid red;
+    background-color: rgb(0, 0, 0);
 }
