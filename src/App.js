@@ -2,16 +2,21 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Banner from "./components/Banner";
 import Container from "./components/Container";
+import Cards from "./components/Cards";
 
 
 function App() {
   return (
     <>
         <Header />
-        <Banner />
+        <Banner images="favoritos" />
         <Container>
-        <h1>Catalogo de Filmes</h1>
-        <p>Escolha a categoria que você mais ama e bom filme!</p>
+        <h2>GEOGRAFIA</h2>
+        <Cards />
+        <Cards />
+        <Cards />
+        <Cards />
+        <Cards />
         </Container>
         <Footer />
     </>

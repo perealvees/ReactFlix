@@ -1,0 +1,7 @@
+.Cards {
+    display: flex;
+}
+
+.Cards img {
+    border-radius: 10px;
+}
