@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
         <Header />
         <h1>Catalogo de Filmes</h1>
         <p>Escolha a categoria que você mais ama e bom filme!</p>
+        <Footer />
     </>
   );
 }
