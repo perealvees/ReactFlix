@@ -8,7 +8,6 @@
 .header{
     background-color: rgb(27, 26, 26);
     border-bottom: solid 2px rgba(247, 53, 53, 0.849);
-    position: fixed;
     display: flex;
     top: 0;
     width: 100%;
